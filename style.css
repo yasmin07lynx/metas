@@ -1,5 +1,5 @@
 .corpo{
-    background-image: linear-gradient(rgba(30, 127, 238, 0.774), rgb(180, 238, 180));
+    background-image: linear-gradient(red, orange, yellow, green, blue purple);
 }
 .titulo{
     font-size: 50px;
