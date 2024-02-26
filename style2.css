@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient((--cor-de-fundo,--cor-de-fundo2));
+    background: linear-gradient(--cor-de-fundo,--cor-de-fundo2);
     color: var(--branco);
 }
 
