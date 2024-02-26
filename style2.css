@@ -1,11 +1,12 @@
 
 body {
-    background-color: var(--cor-de-fundo);
+    background: linear-gradient(--cor-de-fundo,--cor-de-fundo2));
     color: var(--branco);
 }
 
 :root {
-    --cor-de-fundo: #085870;
+    --cor-de-fundo: rgb(10, 88, 82);
+    --cor-de-fundo2: rgb(9, 118, 219);
     --verde: #6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
