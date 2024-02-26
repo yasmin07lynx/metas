@@ -1,6 +1,9 @@
-.body{
-    background-image: linear-gradient(rgb(12, 218, 190), rgb(12, 128, 206));
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
 }
+
 :root {
     --cor-de-fundo: #00b7ff;
     --verde: #6FFF57;
