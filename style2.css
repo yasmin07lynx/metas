@@ -2,7 +2,7 @@
     background-image: linear-gradient(rgb(12, 218, 190), rgb(12, 128, 206));
 }
 :root {
-    --cor-de-fundo: #1E1E1E;
+    --cor-de-fundo: #00b7ff;
     --verde: #6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
@@ -10,6 +10,6 @@
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
-<h1{ 
+.h1{ 
     color: rgb(6, 141, 165);
 }
