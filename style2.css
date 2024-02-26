@@ -5,7 +5,7 @@ body {
 }
 
 :root {
-    --cor-de-fundo: #00b7ff;
+    --cor-de-fundo: linear-gradient(rgb(12, 218, 190), rgb(12, 128, 206));
     --verde: #6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
