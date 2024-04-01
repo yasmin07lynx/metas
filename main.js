@@ -20,9 +20,9 @@ function calculaTempo(tempoObjetivo1){
 
 }
 let tempoFinal = tempoObjetivo1 - tempoAtual;
-let segundos = tempoFinal/1000;
-let minutos = segundos/60;
-let horas = minutos/60;
-let dias = horas/24;
+let segundos = Math.floor (tempoFinal/1000);
+let minutos = Math.floor (segundos/60);
+let horas = Math.floor (minutos/60);
+let dias = Math.floor (horas/24);
 
 contadores[0].textContent = dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
