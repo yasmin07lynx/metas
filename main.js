@@ -34,3 +34,4 @@ horas %= 24;
 return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
 
 }
+//comecaCronometro();
