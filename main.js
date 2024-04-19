@@ -1,5 +1,5 @@
-const botoes = document.querySelectorAll (".botao");
-const texto = document. querySelectorAll (".aba-conteudo");
+const botoes = document.querySelectorAll(".botao");
+const texto = document. querySelectorAll(".aba-conteudo");
 for (let i=0; i < botoes.length; i++){
     botoes[i].onclick = function(){
         for(let j = 0; j <botoes.length; j++){
@@ -17,9 +17,6 @@ const tempoObjetivo2 = new Date("2024-12-21T00:00:00");
 const tempoObjetivo3 = new Date("2024-12-21T00:00:00");
 
 const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3];
-
-
-
 
 function calculaTempo(tempoObjetivo){
     let tempoAtual = new Date();
